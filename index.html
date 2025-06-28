@@ -1,8 +1,90 @@
-<htmil>
-  <head>
-    <title> Hello Word</title>
-  </head>
-  <body>
-    <h1>Hello World</h1>
-  </body>
-</htmil>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pines de Ciencia</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f2f2f2;
+      color: #333;
+    }
+    header {
+      background: #4CAF50;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      padding: 1rem;
+    }
+    .card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      overflow: hidden;
+      text-align: center;
+      padding: 1rem;
+    }
+    .card img {
+      width: 100%;
+      height: auto;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 0.5rem;
+      padding: 0.5rem 1rem;
+      background: #4CAF50;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Pines de Ciencia</h1>
+    <p>¡Luce tu pasión por la ciencia con nuestros pines únicos!</p>
+  </header>
+
+  <main class="container">
+    <div class="card">
+      <img src="https://via.placeholder.com/200x200.png?text=Pin+Microscopio" alt="Pin Microscopio">
+      <h2>Pin Microscopio</h2>
+      <p>S/. 15.00</p>
+      <a class="button" href="mailto:contacto@pinesdeciencia.com?subject=Quiero%20el%20pin%20Microscopio">Comprar</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/200x200.png?text=Pin+ADN" alt="Pin ADN">
+      <h2>Pin ADN</h2>
+      <p>S/. 15.00</p>
+      <a class="button" href="mailto:contacto@pinesdeciencia.com?subject=Quiero%20el%20pin%20ADN">Comprar</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/200x200.png?text=Pin+Átomo" alt="Pin Átomo">
+      <h2>Pin Átomo</h2>
+      <p>S/. 15.00</p>
+      <a class="button" href="mailto:contacto@pinesdeciencia.com?subject=Quiero%20el%20pin%20Átomo">Comprar</a>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 Pines de Ciencia. Todos los derechos reservados.
+  </footer>
+</body>
+</html>
